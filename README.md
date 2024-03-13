@@ -37,4 +37,16 @@
   5, Expect only odd numbers to be concatenated and sorted:
       Expect  concatOdds([2,4,6,7],[8,10,13,15]) to be [7,13,15]
 
-        Functonal Test: 
+        Functonal Test:         
+        Shopping chart        
+  1, When chart is empty:
+     When a user tries to check out with a empty cart, it should prompt a message that say's "chart is empty continue to shop."
+  
+  2, Showing necessary steps during checkout:
+     When a user proceeds to checkout, they should be guided through providing shipping, billing, and payment information, with options to review before finalizing the order, after finalizing order show confirmation numbers.
+
+  3, Preserving cart contents:
+     When a user navigates away during checkout and returns later, the cart contents should be preserved, allowing them to resume the checkout process without losing items.
+
+  4,Error handling during checkout:
+   When a user encounters errors during checkout, clear error messages should be displayed, guiding them to rectify the issues.
